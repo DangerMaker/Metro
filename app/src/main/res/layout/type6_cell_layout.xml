@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ez08.view.EzViewRootFrame xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.ez08.view.EzSimpleDraweeView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="image"
+        />
+
+</com.ez08.view.EzViewRootFrame>

@@ -1,0 +1,9 @@
+include ':app'
+include(':EzFrameWork')
+project(':EzFrameWork').projectDir = new File('../EzFrameWork')
+
+include(':xrecyclerview')
+project(':xrecyclerview').projectDir = new File('../xrecyclerview')
+
+include(':scrollablelayoutlib')
+project(':scrollablelayoutlib').projectDir = new File('../scrollablelayoutlib')

@@ -1,0 +1,119 @@
+[
+    {
+        "ezLayout": "small_cell_layout",
+        "title": "1",
+        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
+        "type":"1"
+    },
+
+ {
+        "ezLayout": "small_cell_layout",
+        "title": "2",
+        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
+        "type":"1"
+    },
+ {
+        "ezLayout": "small_cell_layout",
+        "title": "3",
+        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
+        "type":"1"
+    },
+ {
+        "ezLayout": "small_cell_layout",
+        "title": "4",
+        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
+        "type":"1"
+    },
+
+{
+        "ezLayout": "matrix_cell_layout",
+        "title": "5",
+        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
+        "type":"4"
+    },
+
+{
+        "ezLayout": "type6_cell_layout",
+        "title": "6",
+        "image": "http://img3.imgtn.bdimg.com/it/u=2212489567,2501987214&fm=206&gp=0.jpg",
+        "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
+        "type":"5"
+    },
+
+{
+        "ezLayout": "type3_cell_layout",
+        "title": "股票",
+        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
+        "type":"3"
+    },
+
+{
+        "ezLayout": "matrix_cell_layout",
+        "title": "8",
+        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
+        "type":"3"
+    },
+
+{
+        "ezLayout": "matrix_cell_layout",
+        "title": "9",
+        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
+        "type":"4"
+    },
+
+{
+        "ezLayout": "matrix_cell_layout",
+        "title": "10",
+        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
+        "type":"3"
+    },
+
+{
+        "ezLayout": "matrix_cell_layout",
+        "title": "11",
+        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
+        "type":"2"
+    },
+
+{
+        "ezLayout": "matrix_cell_layout",
+        "title": "12",
+        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
+        "type":"1"
+    },
+
+{
+        "ezLayout": "matrix_cell_layout",
+        "title": "13",
+        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
+        "type":"1"
+    },
+
+{
+        "ezLayout": "matrix_cell_layout",
+        "title": "14",
+        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
+        "type":"5"
+    },
+
+{
+        "ezLayout": "matrix_cell_layout",
+        "title": "15",
+        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
+        "type":"3"
+    }
+]

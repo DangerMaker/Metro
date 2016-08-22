@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.administrator.myapplication.drag.MyLinerLay xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drag_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+
+        <ImageView
+            android:id="@+id/img_del"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/remove_btn"
+            android:contentDescription="@null" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img_del"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/lable_list_style"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txt_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dip"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/lable_item_style"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_increase"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/drag_item_image"
+            android:background="#FF0000"
+            android:paddingBottom="3dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:ems="4"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:text="+0.25%"
+            android:textSize="17sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/txt_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/txt_increase"
+            android:gravity="right"
+            android:paddingBottom="3dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="3dp"
+            android:text="34.98"
+            android:textColor="@color/lable_list_style"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/drag_item_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/drag_btn"
+            android:contentDescription="@null" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/drag_item_close_layout"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:background="#FF0000"
+        android:text="删除"
+        android:textColor="#FFFFFF" />
+
+</com.example.administrator.myapplication.drag.MyLinerLay>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="backbar">
+        <attr name="type" format="integer"/> <!--0、nothing 1、backtolast 2、both -->
+        <attr name="home_class" format="string"/>
+    </declare-styleable>
+</resources>

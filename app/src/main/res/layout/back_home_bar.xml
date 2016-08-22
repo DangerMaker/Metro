@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="48dp"
+    android:background="@drawable/youku_toolbar_bg"
+    android:id="@+id/toolbar"
+    >
+
+    <ImageView
+        android:id="@+id/nav"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:src="@drawable/btn_back_nor"
+        android:layout_marginLeft="0dp"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/last_page"
+        android:layout_toRightOf="@id/nav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上一级"
+        android:textSize="15sp"
+        android:layout_marginLeft="0dp"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/to_home"
+        android:layout_toRightOf="@id/last_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="| 首页"
+        android:textSize="15sp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        />
+
+</RelativeLayout>
