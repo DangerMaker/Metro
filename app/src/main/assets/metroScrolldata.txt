@@ -47,31 +47,54 @@
 
 {
         "ezLayout": "type3_cell_layout",
-        "title": "股票",
-        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "title": "中石化",
+        "price":"38.60",
+        "percent":"+3.1%",
+        "tip":"上涨",
+        "arrow":"0",
         "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
         "type":"3"
     },
 
 {
-        "ezLayout": "matrix_cell_layout",
-        "title": "8",
-        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "ezLayout": "type3_cell_layout",
+         "title": "中国电力",
+         "price":"122.22",
+         "percent":"-9.9%",
+         "tip":"下跌",
+         "arrow":"1",
         "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
         "type":"3"
     },
-
 {
-        "ezLayout": "matrix_cell_layout",
-        "title": "9",
-        "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
+        "ezLayout": "type3_cell_layout",
+         "title": "招商银行",
+         "price":"65.00",
+         "percent":"10.0%",
+         "tip":"上涨",
+         "arrow":"0",
         "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
-        "type":"4"
+        "type":"3"
     },
+    {
+            "ezLayout": "type3_cell_layout",
+             "title": "深河发A",
+             "price":"05.66",
+             "percent":"-0.0%",
+             "tip":"下跌",
+             "arrow":"2",
+            "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
+            "type":"3"
+        },
+
 
 {
-        "ezLayout": "matrix_cell_layout",
-        "title": "10",
+        "ezLayout": "type3_cell_layout",
+         "title": "方大化工",
+         "price":"06.68",
+                      "percent":"-0.0%",
+                      "tip":"持平",
+                      "arrow":"3",
         "image": "http://imgsrc.baidu.com/forum/w%3D580/sign=e2b59ea50c2442a7ae0efdade142ad95/eb8d36087bf40ad11e3d63c5542c11dfa8ecce36.jpg",
         "ezAction": "@{\"targetLayout\":\"EZWebViewController\",\"targetClass\":\"EZWebViewController\",\"targetData\": { \"ezDataUrl\": \"http://www.znz888.cn/special/intro5357/\"}}",
         "type":"3"

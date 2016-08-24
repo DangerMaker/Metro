@@ -72,21 +72,21 @@ public class MainActivity extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View v) {
-//                Intent intent = new Intent(MainActivity.this, SelfStockSettingActivity.class);
-//                startActivityForResult(intent, 100);
-                Bitmap bitmap = BitmapFactory.decodeResource(getResources(),R.drawable.ic_logo);
-                Palette.from(bitmap).generate(new Palette.PaletteAsyncListener() {
-                    @Override
-                    public void onGenerated(Palette palette) {
-                        Palette.Swatch vibrant =
-                                palette.getVibrantSwatch();
-                        if (vibrant != null) {
-                            // If we have a vibrant color
-                            // update the title TextView
-                            gridLayout.setBackgroundColor(vibrant.getRgb());
-                        }
-                    }
-                });
+                Intent intent = new Intent(MainActivity.this, SelfStockSettingActivity.class);
+                startActivityForResult(intent, 100);
+//                Bitmap bitmap = BitmapFactory.decodeResource(getResources(),R.drawable.ic_logo);
+//                Palette.from(bitmap).generate(new Palette.PaletteAsyncListener() {
+//                    @Override
+//                    public void onGenerated(Palette palette) {
+//                        Palette.Swatch vibrant =
+//                                palette.getVibrantSwatch();
+//                        if (vibrant != null) {
+//                            // If we have a vibrant color
+//                            // update the title TextView
+//                            gridLayout.setBackgroundColor(vibrant.getRgb());
+//                        }
+//                    }
+//                });
             }
         });
         gridLayout.setColumnCount(6);

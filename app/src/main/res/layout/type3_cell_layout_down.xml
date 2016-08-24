@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.example.administrator.myapplication.EzTypeView3 xmlns:android="http://schemas.android.com/apk/res/android"
+<com.ez08.view.EzViewRootFrame xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorRed">
+    android:background="@color/colorGreen">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,14 +15,26 @@
             android:id="@+id/price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="36.80"
+            android:text="21.550"
             android:tag="price"
-            android:textSize="30sp"
+            android:textSize="28sp"
             android:textColor="@color/colorWhite"
             android:src="@drawable/ic_notification"
             android:layout_centerInParent="true"
             />
 
+        <TextView
+            android:id="@+id/yuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="元"
+            android:textSize="10sp"
+            android:textColor="@color/colorWhite"
+            android:src="@drawable/ic_notification"
+            android:layout_toRightOf="@id/price"
+            android:layout_alignBottom="@id/price"
+
+            />
 
         <RelativeLayout
             android:id="@+id/increase_layout"
@@ -35,11 +47,11 @@
             <net.steamcrafted.materialiconlib.MaterialIconView
                 android:id="@+id/icon"
                 android:layout_width="10dp"
-                android:layout_height="wrap_content"
-                app:materialIcon="arrow_up_bold"
+                android:layout_height="10dp"
+                app:materialIcon="arrow_down_bold"
                 app:materialIconColor="@color/colorWhite"
+                app:materialIconSize="10dp"
                 android:layout_centerVertical="true"
-                android:tag="arrow"
                 />
 
             <TextView
@@ -47,11 +59,12 @@
                 android:id="@+id/increase"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="+3.1%"
+                android:text="-9.9%"
                 android:textSize="10sp"
                 android:textColor="@color/colorWhite"
+                android:src="@drawable/ic_notification"
                 android:layout_centerInParent="true"
-                android:tag="percent"
+                android:layout_marginLeft="2dp"
 
                 />
 
@@ -67,29 +80,25 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_margin="5dp"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="bottom"
             android:textSize="12sp"
             />
 
         <TextView
-            android:text="持续上涨"
+            android:text="下滑危险"
             android:textColor="@color/colorWhite"
             android:tag="tip"
             android:layout_below="@id/price"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
-            android:paddingLeft="6dp"
-            android:paddingRight="6dp"
-            android:paddingTop="1dp"
-            android:paddingBottom="1dp"
+            android:layout_margin="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="bottom"
             android:textSize="12sp"
-            android:background="@color/colorBlue"
             />
     </RelativeLayout>
 
-</com.example.administrator.myapplication.EzTypeView3>
+</com.ez08.view.EzViewRootFrame>
